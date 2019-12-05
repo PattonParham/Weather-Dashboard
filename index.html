@@ -9,20 +9,85 @@
     <title>Document</title>
 </head>
 <body>
-    <input class = "citySelector"></input>
+<div class = "container">
+<div class = "row justify-content-md-center" style = "margin-top: 30px;">   
+    <input class = "citySelector" id = "#cityName" type = "text"></input>
     <button class = "btn-primary" id = "submitBtn">Check Weather</button>
-    <div class = "cityName"></div>
-    <div class = "date"></div>
-    <img class = "weatherIcon"></img>
-    <div class = "temp"></div>
-    <div class = "tempF"></div>
-    <div class = "humidity"></div>
-    <div class = "windSpeed"></div>
-    <div id = "DayOne"></div>
-    <div id = "DayTwo"></div>
-    <div id = "DayThree"></div>
-    <div id = "DayFour"></div>
-    <div id = "DayFive"></div>
+</div> 
+
+<div class = "row justify-content-md-center" style = "margin-top: 30px;">
+    <div class = "column">
+        <div class = "card" style = "width: 500px;">
+            <div class = "card-body">
+        <div class = "cityName"></div>
+        <div class = "date"></div>
+        <img class = "weatherIcon"></img>
+        <div class = "temp"></div>
+        <div class = "tempF"></div>
+        <div class = "humidity"></div>
+        <div class = "windSpeed"></div>
+        </div>
+        </div>
+    </div>
+</div>
+<div class = "row justify-content-md-center" style = "margin-top: 200px;">
+
+    <div class = "column-2" style = "margin: 30px;">
+            <div class = "card" style = "width: 100px;">
+                    <div class = "card-body">  
+        <div class = "fiveday" id = "DayOne"></div>
+        <div class = "dayonetemp"></div> 
+        <div class = "dayonehumidity"></div> 
+        <div class = "dayonewindspeed"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class = "column-2" style = "margin: 30px;">
+            <div class = "card" style = "width: 100px;">
+                    <div class = "card-body"> 
+        <div class = "fiveday" id = "DayTwo"></div>
+        <div class = "daytwotemp"></div> 
+        <div class = "daytwohumidity"></div> 
+        <div class = "daytwowindspeed"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class = "column-2" style = "margin: 30px;">
+            <div class = "card" style = "width: 100px;">
+                    <div class = "card-body"> 
+        <div class = "fiveday" id = "DayThree"></div>
+        <div class = "daythreetemp"></div> 
+        <div class = "daythreehumidity"></div> 
+        <div class = "daythreewindspeed"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class = "column-2" style = "margin: 30px;">
+            <div class = "card" style = "width: 100px;">
+                    <div class = "card-body"> 
+        <div class = "fiveday" id = "DayFour"></div>
+        <div class = "dayfourtemp"></div> 
+        <div class = "dayfourhumidity"></div> 
+        <div class = "dayfourwindspeed"></div>
+    </div>
+    </div>
+    </div>
+
+    <div class = "column-2" style = "margin: 30px;">
+            <div class = "card" style = "width: 100px;">
+                    <div class = "card-body"> 
+        <div class = "fiveday" id = "DayFive"></div>
+        <div class = "dayfivetemp"></div> 
+        <div class = "dayfivehumidity"></div> 
+        <div class = "dayfivewindspeed"></div>
+    </div>
+    </div>    
+    </div>
+</div>
+</div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></script>
     <script src="script.js"></script>
