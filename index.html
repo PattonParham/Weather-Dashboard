@@ -11,7 +11,7 @@
 <body style = "background-color: skyblue;">
 <div class = "container" style = "background-color: skyblue;">
 <div class = "row justify-content-md-center" style = "margin-top: 30px;">   
-    <input class = "citySelector" id = "#cityName" type = "text"></input>
+    <input class = "citySelector" id = "cityName" type = "text"></input>
     <button class = "btn-primary" id = "submitBtn" style = "background-color:royalblue">Check Weather</button>
 </div> 
 
@@ -36,6 +36,8 @@
             <div class = "card" style = "width: 150px;">
                     <div class = "card-body" style = "background-color: royalblue; color:white;">  
         <div class = "fiveday" id = "DayOne"></div>
+        <div class = "dateone"></div>
+        <img class = "dayoneicon"></img>
         <div class = "dayonetemp"></div> 
         <div class = "dayonehumidity"></div> 
         <div class = "dayonewindspeed"></div>
@@ -47,6 +49,8 @@
             <div class = "card" style = "width: 150px;">
                     <div class = "card-body" style = "background-color: royalblue; color:white;"> 
         <div class = "fiveday" id = "DayTwo"></div>
+        <div class = "datetwo"></div>
+        <img class = "daytwoicon"></img>
         <div class = "daytwotemp"></div> 
         <div class = "daytwohumidity"></div> 
         <div class = "daytwowindspeed"></div>
@@ -58,6 +62,8 @@
             <div class = "card" style = "width: 150px;">
                     <div class = "card-body" style = "background-color: royalblue; color:white;"> 
         <div class = "fiveday" id = "DayThree"></div>
+        <div class = "datethree"></div>
+        <img class = "daythreeicon"></img>
         <div class = "daythreetemp"></div> 
         <div class = "daythreehumidity"></div> 
         <div class = "daythreewindspeed"></div>
@@ -69,6 +75,8 @@
             <div class = "card" style = "width: 150px;">
                     <div class = "card-body" style = "background-color: royalblue; color:white;"> 
         <div class = "fiveday" id = "DayFour"></div>
+        <div class = "datefour"></div>
+        <img class = "dayfouricon"></img>
         <div class = "dayfourtemp"></div> 
         <div class = "dayfourhumidity"></div> 
         <div class = "dayfourwindspeed"></div>
@@ -80,6 +88,8 @@
             <div class = "card" style = "width: 150px;">
                     <div class = "card-body" style = "background-color: royalblue; color:white;"> 
         <div class = "fiveday" id = "DayFive"></div>
+        <div class = "datefive"></div>
+        <img class = "dayfiveicon"></img>
         <div class = "dayfivetemp"></div> 
         <div class = "dayfivehumidity"></div> 
         <div class = "dayfivewindspeed"></div>
@@ -89,7 +99,8 @@
 </div>
 </div>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
